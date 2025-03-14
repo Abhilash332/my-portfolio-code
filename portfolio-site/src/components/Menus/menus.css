@@ -1,0 +1,179 @@
+/* .navbar-profile-pic img {
+    width: 100%;  
+    height: 210px; 
+    border-radius:200px;
+    display:flex;
+    vertical-align:middle;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.nav-item{
+    color:white;
+    margin-top:30px;
+
+    margin-left:25px;
+}
+.nav-link{
+    margin-top:20px;
+    cursor:pointer;
+}
+.nav-link svg{
+    margin-right:10px;
+}
+.nav-link.active{
+    color:#f29f67;
+    border-left:5px solid #f29f67;
+    padding-left:10px;
+    text-decoration:none;
+} */
+ /* Profile Picture Styling */
+/* .navbar-profile-pic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar-profile-pic img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+    margin-top: 20px;
+}
+
+
+.nav-item {
+    width: 100%;
+    text-align: left;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.nav-link.active {
+    color: #f29f67;
+    border-left: 5px solid #f29f67;
+    padding-left: 15px;
+    background-color: rgba(242, 159, 103, 0.2);
+} */
+/* Profile Picture Styling */
+/* Profile Picture Styling */
+.navbar-profile-pic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar-profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Items */
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+/* /* .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    
+ 
+    max-height: 80vh; 
+    overflow-y: auto;
+} */
+
+
+/* .nav-items::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav-items::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}  */
+
+/* Individual Navigation Link */
+.nav-item {
+    width: 100%;
+    text-align: left;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s;
+    text-decoration: none;
+}
+
+/* Highlight the Active Link */
+.nav-link.active {
+    color: #f29f67 !important;
+    border-left: 5px solid #f29f67 !important;
+    padding-left: 15px !important;
+    background-color: rgba(242, 159, 103, 0.2) !important;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Hide text when collapsed */
+.nav-link span {
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+/* When menu is collapsed, hide text */
+.menu-collapsed .nav-link span {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+/* When menu is expanded, show text */
+.menu-expanded .nav-link span {
+    opacity: 1;
+    visibility: visible;
+    width: auto;
+}
